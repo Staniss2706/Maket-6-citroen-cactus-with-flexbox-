@@ -1,0 +1,142 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	margin: 0 auto;
+	color: #000;
+	/*width: 700px;*/
+	background: #f3f3f3;
+	font: 12px/1 arial, helvetica, sans-serif;
+}
+/* General reset */
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+}
+img {
+	border: none;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+/* General settings */
+/*img{
+	width: 100%;
+}*/
+.container{
+	max-width: 1160px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.flex-container{
+	display: flex;
+	-webkit-display: flex;
+	-moz-display: flex;
+	-o-display: flex;
+	-ms-display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+/*HEADER START*/
+.header{
+	padding-top: 40px;
+}
+.header-nav{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #212121;
+	font-weight: 700;
+}
+.header-nav li{
+	display: inline-block;
+	margin: 0 20px;
+	cursor: pointer;
+}
+.header-nav li a{
+	text-decoration: none;
+}
+.header-nav li a:hover{
+	color: #359cca;
+}
+/*HEADER END*/
+
+/*MAIN START*/
+.main{
+	overflow: hidden;
+	position: relative;
+}
+.backend-text{
+	font-size: 430px;
+	font-weight: 800;
+	color: #e5e5e5;
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	left: -75px;
+}
+.inner{
+	margin-top: 19vh;
+	position: relative;
+	z-index: 7;
+}
+.car-info{
+	width: 35%;
+	font-family: 'Open Sans', sans-serif;
+}
+.car-info h3{
+	font-size: 70px;
+	font-weight: 800;
+	margin-bottom: 32px;
+}
+.car-info p{
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 14px;
+}
+.car-info span{
+	color: #b2b1b1;
+	display: block;
+	line-height: 24px;
+}
+.car-info a{
+	text-decoration: none;
+}
+.car-image{
+	width: calc( 70% - 100px );
+}
+.btn{
+	display: inline-block;
+	padding: 20px 70px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #5bc4f6;
+	margin-top: 50px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.btn:hover{
+	background-color: #359cca;
+}
+/*MAIN END*/
+
+/*FOOTER START*/
+.footer{
+	height: 100px;
+}
+/*FOOTER END*/
+
+
+
+/*font-family: 'Open Sans', sans-serif;*/
